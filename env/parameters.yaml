@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:jx-aps-arcalos/adminUser:password
+  username: admin
+dashboardAuthID: vault:jx-aps-arcalos:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:jx-aps-arcalos:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: arcalos-bot@googlegroups.com
+  token: vault:jx-aps-arcalos/pipelineUser:token
+  username: arcalos-bot
+prow:
+  hmacToken: vault:jx-aps-arcalos/prow:hmacToken
